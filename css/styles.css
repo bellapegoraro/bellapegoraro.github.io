@@ -1,0 +1,52 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #17153b;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 24px;
+  justify-content: space-around;
+  top: 0;
+}
+
+.content {
+  margin: 16px;
+  padding: 16px;
+  background-color: #c8acd6;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 8px;
+}
+
+button {
+  background-color: #2e236c;
+  color: white;
+  padding: 8px;
+  border: none;
+  width: 50%;
+  align-self: center;
+}
